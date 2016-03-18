@@ -5,7 +5,6 @@ import java.util.List;
 
 import conversion.Conversions;
 
-
 public class TapeEquilibrium {
 
 	public static void main(String[] args) {
