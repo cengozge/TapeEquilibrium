@@ -3,6 +3,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import conversion.Conversions;
+
 
 public class TapeEquilibrium {
 
@@ -15,9 +17,7 @@ public class TapeEquilibrium {
 		
 		List<Integer> list = new ArrayList<Integer>();//collects differences
 		
-		Integer[] bigIntArray = Arrays.stream( A ).boxed().toArray( Integer[]::new );
-		
-		List<Integer> arrayList = Arrays.asList(bigIntArray);
+		List<Integer> arrayList = Conversions.fromArrayToList(A);
 		
 		//start point is 0th element and the rest of the array
 		int sumRight = A[0];
