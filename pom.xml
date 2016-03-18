@@ -13,8 +13,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>OzgeAltyapi</groupId>
-			<artifactId>OzgeAltyapi</artifactId>
+			<groupId>Reusable</groupId>
+			<artifactId>Reusable</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
